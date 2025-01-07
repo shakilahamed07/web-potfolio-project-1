@@ -1,0 +1,71 @@
+.open-sans-normal{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+/* font end */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shered style */
+.text-primary-color{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* nav start here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 150px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+ul li a{
+    text-decoration: none;
+    color: #474747;
+}
+nav .nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/* nav end here */
+
+/* header start */
+.beanar-info h4{
+    font-size: 25px;
+}
+.beanar-info h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+} 
+.beanar-info .beanar-discription{
+    margin-bottom: 20px;
+}
+.beanar-info .b1{
+    margin-right: 20px;
+}
+/* header end */
